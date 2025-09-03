@@ -42,3 +42,49 @@ nav {
     height: 400px;
     position: relative;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px 20px;
+}
+
+.box {
+    display: flex;
+    gap: 25px;
+    width: 60%;
+}
+
+.box .img {
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px 20px;
+    
+}
+
+.box .img img{
+    border-radius: 45px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 15px 20px;
+}
+
+.teks {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.nama-wisata h1 {
+
+    text-transform: uppercase;
+}
+
+
