@@ -1,29 +1,19 @@
-.d-flex{
+.d-flex {
     display: flex;
-    justify-content: center;
-    align-items: right;
+    align-items: flex-start;
+    gap: 20px; /* Jarak antara gambar dan teks */
+    margin-bottom: 30px; /* Jarak antar fasilitas */
 }
 
-img,p{
-    padding: 10px;  
-}
-.d-flex{
-    display: flex;
-     justify-content: center;
-    align-items: center;
+.d-flex img {
+    width: 200px; /* Atur lebar gambar sesuai kebutuhan */
+    height: auto;
+    border-radius: 8px;
 }
 
-
-img,p{
-    padding: 10px;
-}
-.d-flex{
-    display: flex;
-    justify-content: center;
-
-body {
-    background-color: #FAFAFA;
-    color: rgb(80, 80, 80);
+.d-flex b, .d-flex p, .d-flex P1, .d-flex P2 {
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 .hero {
@@ -460,13 +450,7 @@ img,p{
 /* .banner {
     display: flex;
 } */
-
-
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 6px;
-}
-
+ 
 .jelajah {
     display: flex;
     align-items: center;
