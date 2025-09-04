@@ -5,8 +5,6 @@
 }
 
 .hero {
-    /* background-image: url('image_web_galeri/ijen.jpg'); */
-
     background-image: url(img/Alas-Purwo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,9 +79,6 @@
     padding: 20px 0;
     text-align: center;
 }
-
-
-/* gallery css */
 
 .grid-container {
   margin: 0 auto;
@@ -491,3 +486,4 @@
     width:100px;
 }
 
+/* galeri css */
