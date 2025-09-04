@@ -5,7 +5,7 @@
 }
 
 .hero {
-    background-image: url('image_web_galeri/ijen.jpg');
+    /* background-image: url('image_web_galeri/ijen.jpg'); */
 
     background-image: url(img/Alas-Purwo.jpg);
     background-repeat: no-repeat;
@@ -85,16 +85,9 @@
 
 /* gallery css */
 
-
-
 .grid-container {
   margin: 0 auto;
-  width: 80%;
-
-.grid-container {
-    margin: 0 auto;
-    width: 80%;
-
+   width: 80%;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(5, 1fr);
@@ -170,6 +163,7 @@
 .grid-item .item-2 {
     width: 100%;
 }
+
 
 .fluent--vehicle-bus-16-filled {
   display: inline-block;
