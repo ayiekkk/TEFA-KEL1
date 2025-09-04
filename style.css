@@ -5,7 +5,7 @@
 }
 
 .hero {
-    background-image: url('image_web_galeri/ijen.jpg');
+    /* background-image: url('image_web_galeri/ijen.jpg'); */
 
     background-image: url(img/Alas-Purwo.jpg);
     background-repeat: no-repeat;
@@ -85,8 +85,6 @@
 
 /* gallery css */
 
-
-
 .grid-container {
   margin: 0 auto;
   width: 80%;
@@ -95,7 +93,9 @@
 .grid-container {
     margin: 0 auto;
     width: 80%;
+}
 
+   width: 80%;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(5, 1fr);
@@ -173,6 +173,7 @@
 }
 
 /* LANDING PAGE */
+
 
 .fluent--vehicle-bus-16-filled {
   display: inline-block;
@@ -381,12 +382,12 @@
     line-height: 1.5rem;
 }
 
-.event.row {
+/* .event.row {
     display: flex;
     flex-wrap: wrap;
     margin-top: 5rem;
     justify-content: center
-}
+} */
 
 .event-card {
     padding: 20px;
@@ -411,10 +412,10 @@
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
+    display: flex;
 }
 
 .event-card {
-    display: inline-block;
     width: 300px;
     height: 200px;
 
@@ -432,16 +433,16 @@
     margin-bottom: 3rem;
 }
 
-.event .row {
+/* .event .row {
     display: flex;
-}
+} */
 
 .event .row .event-img {
-    flex: 1 1 45rem
+    flex: 1 1 45rem;
 }
 
 .event .row .event-img img {
-    width: 100%
+    width: 100%;
 }
 
 .event .row .content {
@@ -455,13 +456,10 @@
 }
 
 .about .row .content p {
-    margin-bottom: 0.8
+    margin-bottom: 0.8;
 }
 
-.wrapper {
-    display: flex;
-    animationL: slide 10s infinite;
-}
+
 
 .wrapper img {
     width:100px;
@@ -534,8 +532,6 @@
 .nama-wisata h1 {
     text-transform: uppercase;
 }
-
-
 
 
 
