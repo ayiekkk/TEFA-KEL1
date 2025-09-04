@@ -17,8 +17,6 @@
     flex-direction: column;
 }
 
-nav {
-
 .nav {
     display: flex;
     justify-content: space-between;
