@@ -109,7 +109,7 @@ nav {
     margin-bottom: 3rem;
 }
 
-.event .row{
+.event .row {
     display: flex;
 }
 
@@ -133,4 +133,13 @@ nav {
 
 .about .row .content p {
     margin-bottom: 0.8
+}
+
+.wrapper {
+    display: flex;
+    animationL: slide 10s infinite;
+}
+
+.wrapper img {
+    width:100px;
 }
