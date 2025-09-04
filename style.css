@@ -1,8 +1,25 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: right;
 }
+
+img,p{
+    padding: 10px;  
+}
+.d-flex{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
+
+
+img,p{
+    padding: 10px;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
 
 body {
     background-color: #FAFAFA;
@@ -40,17 +57,58 @@ body {
     align-items: center;
 }
 
-.tool-bar {
-    width: 50%;
+img,p{
+    padding: 10px; 
 }
-
-.tool-bar ul {
+.d-flex{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
-.tool-bar ul li {
-    list-style: none;
+img,p{
+    padding: 10px;  
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img,p{
+    padding: 10px;  
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img,p{
+    padding: 10px;  
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img,p{
+    padding: 10px;  
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img,p{
+    padding: 20px;  
+}h1{
+    font-size: 50px;
+}
+.JUDUL BESAR {
+    font-size: 2.5rem;
 }
 
 .tool-bar ul li a {
@@ -119,7 +177,7 @@ body {
 .grid-container {
     margin: 0 auto;
     width: 80%;
-
+  }
 
 .grid-item {
   border-radius: 5px;
