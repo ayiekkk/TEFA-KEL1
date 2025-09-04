@@ -10,7 +10,12 @@ body {
 }
 
 .hero {
+<<<<<<< HEAD
     background-image: url('image_web_galeri/ijen.jpg');
+=======
+    /* background-image: url('image_web_galeri/ijen.jpg'); */
+
+>>>>>>> a4ede41c9f82b6251f7356be074fbf2ea1ec3594
     background-image: url(img/Alas-Purwo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,8 +116,6 @@ body {
 
 /* gallery css */
 
-
-
 .grid-container {
   margin: 0 auto;
   width: 80%;
@@ -121,7 +124,9 @@ body {
 .grid-container {
     margin: 0 auto;
     width: 80%;
+}
 
+   width: 80%;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(5, 1fr);
@@ -186,6 +191,7 @@ body {
 }
 
 /* LANDING PAGE */
+
 
 .fluent--vehicle-bus-16-filled {
   display: inline-block;
@@ -404,12 +410,12 @@ body {
     line-height: 1.5rem;
 }
 
-.event.row {
+/* .event.row {
     display: flex;
     flex-wrap: wrap;
     margin-top: 5rem;
     justify-content: center
-}
+} */
 
 .event-card {
     padding: 20px;
@@ -434,10 +440,10 @@ body {
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
+    display: flex;
 }
 
 .event-card {
-    display: inline-block;
     width: 300px;
     height: 200px;
 
@@ -455,16 +461,16 @@ body {
     margin-bottom: 3rem;
 }
 
-.event .row {
+/* .event .row {
     display: flex;
-}
+} */
 
 .event .row .event-img {
-    flex: 1 1 45rem
+    flex: 1 1 45rem;
 }
 
 .event .row .event-img img {
-    width: 100%
+    width: 100%;
 }
 
 .event .row .content {
@@ -478,13 +484,10 @@ body {
 }
 
 .about .row .content p {
-    margin-bottom: 0.8
+    margin-bottom: 0.8;
 }
 
-.wrapper {
-    display: flex;
-    animationL: slide 10s infinite;
-}
+
 
 .wrapper img {
     width:100px;
@@ -682,8 +685,6 @@ footer {
     text-decoration: none;
     font-size: 1.5em;
 }
-
-
 
 
 
