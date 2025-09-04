@@ -441,7 +441,7 @@ body {
 /* Event Details */
 .event-details {
     padding: 5rem 7% 1.4rem;
-    text-align: center;
+    text-align: left;
 }
 
 .event-details h2 {
@@ -453,34 +453,10 @@ body {
 /* .event .row {
     display: flex;
 } */
-
-.event .row .event-img {
-    flex: 1 1 45rem;
-}
-
-.event .row .event-img img {
-    width: 100%;
-}
-
-.event .row .content {
-    flex: 1 1 35rem;
-    padding: 0 1rem;
-}
-
-.event .row .content h3 {
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-}
-
-.about .row .content p {
-    margin-bottom: 0.8;
-}
-
-
-
 .wrapper img {
     width:100px;
 }
+
 
 /* HSITORY PAGE */
 
