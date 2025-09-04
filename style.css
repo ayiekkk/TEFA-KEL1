@@ -119,7 +119,6 @@ body {
 .grid-container {
     margin: 0 auto;
     width: 80%;
-}
 
 
 .grid-item {
@@ -344,6 +343,67 @@ body {
 .catalog-content {
     width: 80%;
     display: flex;
+    border-radius: 20px;
+    /* background-color: tomato; */
+    background-image:url(img/Alas-Purwo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px 20px;
+}
+
+.box {
+    display: flex;
+    gap: 25px;
+    width: 60%;
+}
+
+.box .img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px 20px;
+    
+}
+
+.box .img img{
+    border-radius: 45px;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 15px 20px;
+    
+}
+
+.teks {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.nama-wisata h1 {
+
+    text-transform: uppercase;
+}
+
+
+
+/* .banner {
+    display: flex;
+} */
+
+
     flex-direction: row;
     flex-wrap: wrap;
     gap: 6px;
@@ -453,6 +513,29 @@ body {
 /* .event .row {
     display: flex;
 } */
+
+.event .row .event-img {
+    flex: 1 1 45rem;
+}
+
+.event .row .event-img img {
+    width: 100%;
+}
+
+.event .row .content {
+    flex: 1 1 35rem;
+    padding: 0 1rem;
+}
+
+.event .row .content h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.about .row .content p {
+    margin-bottom: 0.8;
+}
+
 .wrapper img {
     width:100px;
 }
